@@ -73,7 +73,7 @@ DermaCheck/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/rootapish/DermaCheck.git
+git clone https://github.com/AsthaSingh-19/DermaCheck.git
 cd DermaCheck
 ```
 
