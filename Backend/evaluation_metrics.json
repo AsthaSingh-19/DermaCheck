@@ -1,0 +1,1988 @@
+{
+  "overall": {
+    "accuracy": 82.29,
+    "macro_f1": 93.28,
+    "weighted_f1": 82.66,
+    "total_validation_samples": 8842
+  },
+  "classes": {
+    "0": {
+      "label": "acanthosis nigricans",
+      "f1_score": 97.3,
+      "precision": 94.74,
+      "recall": 100.0,
+      "support": 18,
+      "confusion_matrix": {
+        "tp": 18,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8823
+      },
+      "top_confused_with": []
+    },
+    "1": {
+      "label": "acne",
+      "f1_score": 96.1,
+      "precision": 92.5,
+      "recall": 100.0,
+      "support": 37,
+      "confusion_matrix": {
+        "tp": 37,
+        "fp": 3,
+        "fn": 0,
+        "tn": 8802
+      },
+      "top_confused_with": []
+    },
+    "2": {
+      "label": "acne vulgaris",
+      "f1_score": 96.24,
+      "precision": 96.97,
+      "recall": 95.52,
+      "support": 67,
+      "confusion_matrix": {
+        "tp": 64,
+        "fp": 2,
+        "fn": 3,
+        "tn": 8773
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 2
+        },
+        {
+          "label": "acne",
+          "count": 1
+        }
+      ]
+    },
+    "3": {
+      "label": "acquired autoimmune bullous diseaseherpes gestationis",
+      "f1_score": 78.57,
+      "precision": 73.33,
+      "recall": 84.62,
+      "support": 13,
+      "confusion_matrix": {
+        "tp": 11,
+        "fp": 4,
+        "fn": 2,
+        "tn": 8825
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 2
+        }
+      ]
+    },
+    "4": {
+      "label": "acrodermatitis enteropathica",
+      "f1_score": 33.33,
+      "precision": 20.0,
+      "recall": 100.0,
+      "support": 18,
+      "confusion_matrix": {
+        "tp": 18,
+        "fp": 72,
+        "fn": 0,
+        "tn": 8752
+      },
+      "top_confused_with": []
+    },
+    "5": {
+      "label": "actinic keratosis",
+      "f1_score": 69.81,
+      "precision": 68.37,
+      "recall": 71.32,
+      "support": 394,
+      "confusion_matrix": {
+        "tp": 281,
+        "fp": 130,
+        "fn": 113,
+        "tn": 8318
+      },
+      "top_confused_with": [
+        {
+          "label": "basal cell carcinoma",
+          "count": 40
+        },
+        {
+          "label": "seborrheic keratosis",
+          "count": 20
+        },
+        {
+          "label": "squamous cell carcinoma",
+          "count": 16
+        }
+      ]
+    },
+    "6": {
+      "label": "allergic contact dermatitis",
+      "f1_score": 96.43,
+      "precision": 98.78,
+      "recall": 94.19,
+      "support": 86,
+      "confusion_matrix": {
+        "tp": 81,
+        "fp": 1,
+        "fn": 5,
+        "tn": 8755
+      },
+      "top_confused_with": [
+        {
+          "label": "stasis edema",
+          "count": 1
+        },
+        {
+          "label": "perioral dermatitis",
+          "count": 1
+        },
+        {
+          "label": "dariers disease",
+          "count": 1
+        }
+      ]
+    },
+    "7": {
+      "label": "aplasia cutis",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 14,
+      "confusion_matrix": {
+        "tp": 14,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8828
+      },
+      "top_confused_with": []
+    },
+    "8": {
+      "label": "basal cell carcinoma",
+      "f1_score": 74.26,
+      "precision": 79.05,
+      "recall": 70.01,
+      "support": 927,
+      "confusion_matrix": {
+        "tp": 649,
+        "fp": 172,
+        "fn": 278,
+        "tn": 7743
+      },
+      "top_confused_with": [
+        {
+          "label": "squamous cell carcinoma",
+          "count": 64
+        },
+        {
+          "label": "actinic keratosis",
+          "count": 60
+        },
+        {
+          "label": "melanoma",
+          "count": 28
+        }
+      ]
+    },
+    "9": {
+      "label": "basal cell carcinoma morpheiform",
+      "f1_score": 85.71,
+      "precision": 75.0,
+      "recall": 100.0,
+      "support": 12,
+      "confusion_matrix": {
+        "tp": 12,
+        "fp": 4,
+        "fn": 0,
+        "tn": 8826
+      },
+      "top_confused_with": []
+    },
+    "10": {
+      "label": "becker nevus",
+      "f1_score": 96.3,
+      "precision": 92.86,
+      "recall": 100.0,
+      "support": 13,
+      "confusion_matrix": {
+        "tp": 13,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8828
+      },
+      "top_confused_with": []
+    },
+    "11": {
+      "label": "behcets disease",
+      "f1_score": 96.0,
+      "precision": 100.0,
+      "recall": 92.31,
+      "support": 13,
+      "confusion_matrix": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 1,
+        "tn": 8829
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "12": {
+      "label": "calcinosis cutis",
+      "f1_score": 91.43,
+      "precision": 84.21,
+      "recall": 100.0,
+      "support": 16,
+      "confusion_matrix": {
+        "tp": 16,
+        "fp": 3,
+        "fn": 0,
+        "tn": 8823
+      },
+      "top_confused_with": []
+    },
+    "13": {
+      "label": "cheilitis",
+      "f1_score": 95.24,
+      "precision": 95.24,
+      "recall": 95.24,
+      "support": 21,
+      "confusion_matrix": {
+        "tp": 20,
+        "fp": 1,
+        "fn": 1,
+        "tn": 8820
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "14": {
+      "label": "congenital nevus",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 14,
+      "confusion_matrix": {
+        "tp": 14,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8828
+      },
+      "top_confused_with": []
+    },
+    "15": {
+      "label": "dariers disease",
+      "f1_score": 90.62,
+      "precision": 87.88,
+      "recall": 93.55,
+      "support": 31,
+      "confusion_matrix": {
+        "tp": 29,
+        "fp": 4,
+        "fn": 2,
+        "tn": 8807
+      },
+      "top_confused_with": [
+        {
+          "label": "telangiectases",
+          "count": 1
+        },
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "16": {
+      "label": "dermatofibroma",
+      "f1_score": 69.95,
+      "precision": 53.78,
+      "recall": 100.0,
+      "support": 64,
+      "confusion_matrix": {
+        "tp": 64,
+        "fp": 55,
+        "fn": 0,
+        "tn": 8723
+      },
+      "top_confused_with": []
+    },
+    "17": {
+      "label": "dermatomyositis",
+      "f1_score": 98.36,
+      "precision": 96.77,
+      "recall": 100.0,
+      "support": 30,
+      "confusion_matrix": {
+        "tp": 30,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8811
+      },
+      "top_confused_with": []
+    },
+    "18": {
+      "label": "disseminated actinic porokeratosis",
+      "f1_score": 96.0,
+      "precision": 92.31,
+      "recall": 100.0,
+      "support": 12,
+      "confusion_matrix": {
+        "tp": 12,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8829
+      },
+      "top_confused_with": []
+    },
+    "19": {
+      "label": "drug eruption",
+      "f1_score": 97.5,
+      "precision": 97.5,
+      "recall": 97.5,
+      "support": 40,
+      "confusion_matrix": {
+        "tp": 39,
+        "fp": 1,
+        "fn": 1,
+        "tn": 8801
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "20": {
+      "label": "drug induced pigmentary changes",
+      "f1_score": 96.55,
+      "precision": 93.33,
+      "recall": 100.0,
+      "support": 14,
+      "confusion_matrix": {
+        "tp": 14,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8827
+      },
+      "top_confused_with": []
+    },
+    "21": {
+      "label": "dyshidrotic eczema",
+      "f1_score": 97.14,
+      "precision": 94.44,
+      "recall": 100.0,
+      "support": 17,
+      "confusion_matrix": {
+        "tp": 17,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8824
+      },
+      "top_confused_with": []
+    },
+    "22": {
+      "label": "eczema",
+      "f1_score": 97.56,
+      "precision": 97.56,
+      "recall": 97.56,
+      "support": 41,
+      "confusion_matrix": {
+        "tp": 40,
+        "fp": 1,
+        "fn": 1,
+        "tn": 8800
+      },
+      "top_confused_with": [
+        {
+          "label": "prurigo nodularis",
+          "count": 1
+        }
+      ]
+    },
+    "23": {
+      "label": "ehlers danlos syndrome",
+      "f1_score": 96.0,
+      "precision": 96.0,
+      "recall": 96.0,
+      "support": 25,
+      "confusion_matrix": {
+        "tp": 24,
+        "fp": 1,
+        "fn": 1,
+        "tn": 8816
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "24": {
+      "label": "epidermal nevus",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 18,
+      "confusion_matrix": {
+        "tp": 18,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8824
+      },
+      "top_confused_with": []
+    },
+    "25": {
+      "label": "epidermolysis bullosa",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 14,
+      "confusion_matrix": {
+        "tp": 14,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8828
+      },
+      "top_confused_with": []
+    },
+    "26": {
+      "label": "erythema annulare centrifigum",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 18,
+      "confusion_matrix": {
+        "tp": 18,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8824
+      },
+      "top_confused_with": []
+    },
+    "27": {
+      "label": "erythema elevatum diutinum",
+      "f1_score": 95.24,
+      "precision": 100.0,
+      "recall": 90.91,
+      "support": 11,
+      "confusion_matrix": {
+        "tp": 10,
+        "fp": 0,
+        "fn": 1,
+        "tn": 8831
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "28": {
+      "label": "erythema multiforme",
+      "f1_score": 98.92,
+      "precision": 100.0,
+      "recall": 97.87,
+      "support": 47,
+      "confusion_matrix": {
+        "tp": 46,
+        "fp": 0,
+        "fn": 1,
+        "tn": 8795
+      },
+      "top_confused_with": [
+        {
+          "label": "acquired autoimmune bullous diseaseherpes gestationis",
+          "count": 1
+        }
+      ]
+    },
+    "29": {
+      "label": "erythema nodosum",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 16,
+      "confusion_matrix": {
+        "tp": 16,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8826
+      },
+      "top_confused_with": []
+    },
+    "30": {
+      "label": "factitial dermatitis",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 13,
+      "confusion_matrix": {
+        "tp": 13,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8829
+      },
+      "top_confused_with": []
+    },
+    "31": {
+      "label": "fixed eruptions",
+      "f1_score": 98.04,
+      "precision": 96.15,
+      "recall": 100.0,
+      "support": 25,
+      "confusion_matrix": {
+        "tp": 25,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8816
+      },
+      "top_confused_with": []
+    },
+    "32": {
+      "label": "folliculitis",
+      "f1_score": 94.74,
+      "precision": 96.92,
+      "recall": 92.65,
+      "support": 68,
+      "confusion_matrix": {
+        "tp": 63,
+        "fp": 2,
+        "fn": 5,
+        "tn": 8772
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 4
+        },
+        {
+          "label": "lupus subacute",
+          "count": 1
+        }
+      ]
+    },
+    "33": {
+      "label": "fordyce spots",
+      "f1_score": 86.49,
+      "precision": 94.12,
+      "recall": 80.0,
+      "support": 20,
+      "confusion_matrix": {
+        "tp": 16,
+        "fp": 1,
+        "fn": 4,
+        "tn": 8821
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 4
+        }
+      ]
+    },
+    "34": {
+      "label": "granuloma annulare",
+      "f1_score": 93.98,
+      "precision": 95.12,
+      "recall": 92.86,
+      "support": 42,
+      "confusion_matrix": {
+        "tp": 39,
+        "fp": 2,
+        "fn": 3,
+        "tn": 8798
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 3
+        }
+      ]
+    },
+    "35": {
+      "label": "granuloma pyogenic",
+      "f1_score": 96.77,
+      "precision": 93.75,
+      "recall": 100.0,
+      "support": 15,
+      "confusion_matrix": {
+        "tp": 15,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8826
+      },
+      "top_confused_with": []
+    },
+    "36": {
+      "label": "hailey hailey disease",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 35,
+      "confusion_matrix": {
+        "tp": 35,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8807
+      },
+      "top_confused_with": []
+    },
+    "37": {
+      "label": "halo nevus",
+      "f1_score": 96.97,
+      "precision": 94.12,
+      "recall": 100.0,
+      "support": 16,
+      "confusion_matrix": {
+        "tp": 16,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8825
+      },
+      "top_confused_with": []
+    },
+    "38": {
+      "label": "hidradenitis",
+      "f1_score": 97.3,
+      "precision": 94.74,
+      "recall": 100.0,
+      "support": 18,
+      "confusion_matrix": {
+        "tp": 18,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8823
+      },
+      "top_confused_with": []
+    },
+    "39": {
+      "label": "ichthyosis vulgaris",
+      "f1_score": 96.0,
+      "precision": 100.0,
+      "recall": 92.31,
+      "support": 13,
+      "confusion_matrix": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 1,
+        "tn": 8829
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "40": {
+      "label": "incontinentia pigmenti",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 20,
+      "confusion_matrix": {
+        "tp": 20,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8822
+      },
+      "top_confused_with": []
+    },
+    "41": {
+      "label": "juvenile xanthogranuloma",
+      "f1_score": 92.06,
+      "precision": 87.88,
+      "recall": 96.67,
+      "support": 30,
+      "confusion_matrix": {
+        "tp": 29,
+        "fp": 4,
+        "fn": 1,
+        "tn": 8808
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "42": {
+      "label": "kaposi sarcoma",
+      "f1_score": 96.77,
+      "precision": 96.77,
+      "recall": 96.77,
+      "support": 31,
+      "confusion_matrix": {
+        "tp": 30,
+        "fp": 1,
+        "fn": 1,
+        "tn": 8810
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "43": {
+      "label": "keloid",
+      "f1_score": 98.36,
+      "precision": 100.0,
+      "recall": 96.77,
+      "support": 31,
+      "confusion_matrix": {
+        "tp": 30,
+        "fp": 0,
+        "fn": 1,
+        "tn": 8811
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "44": {
+      "label": "keratosis pilaris",
+      "f1_score": 96.77,
+      "precision": 100.0,
+      "recall": 93.75,
+      "support": 16,
+      "confusion_matrix": {
+        "tp": 15,
+        "fp": 0,
+        "fn": 1,
+        "tn": 8826
+      },
+      "top_confused_with": [
+        {
+          "label": "naevus comedonicus",
+          "count": 1
+        }
+      ]
+    },
+    "45": {
+      "label": "langerhans cell histiocytosis",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 12,
+      "confusion_matrix": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8830
+      },
+      "top_confused_with": []
+    },
+    "46": {
+      "label": "lentigo maligna",
+      "f1_score": 85.0,
+      "precision": 73.91,
+      "recall": 100.0,
+      "support": 17,
+      "confusion_matrix": {
+        "tp": 17,
+        "fp": 6,
+        "fn": 0,
+        "tn": 8819
+      },
+      "top_confused_with": []
+    },
+    "47": {
+      "label": "lichen amyloidosis",
+      "f1_score": 96.55,
+      "precision": 100.0,
+      "recall": 93.33,
+      "support": 15,
+      "confusion_matrix": {
+        "tp": 14,
+        "fp": 0,
+        "fn": 1,
+        "tn": 8827
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "48": {
+      "label": "lichen planus",
+      "f1_score": 98.46,
+      "precision": 98.97,
+      "recall": 97.96,
+      "support": 98,
+      "confusion_matrix": {
+        "tp": 96,
+        "fp": 1,
+        "fn": 2,
+        "tn": 8743
+      },
+      "top_confused_with": [
+        {
+          "label": "lupus subacute",
+          "count": 1
+        },
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "49": {
+      "label": "lichen simplex",
+      "f1_score": 97.3,
+      "precision": 100.0,
+      "recall": 94.74,
+      "support": 19,
+      "confusion_matrix": {
+        "tp": 18,
+        "fp": 0,
+        "fn": 1,
+        "tn": 8823
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "50": {
+      "label": "livedo reticularis",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 12,
+      "confusion_matrix": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8830
+      },
+      "top_confused_with": []
+    },
+    "51": {
+      "label": "lupus erythematosus",
+      "f1_score": 97.5,
+      "precision": 100.0,
+      "recall": 95.12,
+      "support": 82,
+      "confusion_matrix": {
+        "tp": 78,
+        "fp": 0,
+        "fn": 4,
+        "tn": 8760
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 3
+        },
+        {
+          "label": "seborrheic dermatitis",
+          "count": 1
+        }
+      ]
+    },
+    "52": {
+      "label": "lupus subacute",
+      "f1_score": 90.91,
+      "precision": 90.91,
+      "recall": 90.91,
+      "support": 22,
+      "confusion_matrix": {
+        "tp": 20,
+        "fp": 2,
+        "fn": 2,
+        "tn": 8818
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 2
+        }
+      ]
+    },
+    "53": {
+      "label": "lyme disease",
+      "f1_score": 96.0,
+      "precision": 100.0,
+      "recall": 92.31,
+      "support": 26,
+      "confusion_matrix": {
+        "tp": 24,
+        "fp": 0,
+        "fn": 2,
+        "tn": 8816
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 2
+        }
+      ]
+    },
+    "54": {
+      "label": "lymphangioma",
+      "f1_score": 93.02,
+      "precision": 86.96,
+      "recall": 100.0,
+      "support": 20,
+      "confusion_matrix": {
+        "tp": 20,
+        "fp": 3,
+        "fn": 0,
+        "tn": 8819
+      },
+      "top_confused_with": []
+    },
+    "55": {
+      "label": "malignant melanoma",
+      "f1_score": 91.67,
+      "precision": 84.62,
+      "recall": 100.0,
+      "support": 22,
+      "confusion_matrix": {
+        "tp": 22,
+        "fp": 4,
+        "fn": 0,
+        "tn": 8816
+      },
+      "top_confused_with": []
+    },
+    "56": {
+      "label": "melanoma",
+      "f1_score": 65.56,
+      "precision": 67.77,
+      "recall": 63.5,
+      "support": 967,
+      "confusion_matrix": {
+        "tp": 614,
+        "fp": 292,
+        "fn": 353,
+        "tn": 7583
+      },
+      "top_confused_with": [
+        {
+          "label": "nevocytic nevus",
+          "count": 177
+        },
+        {
+          "label": "seborrheic keratosis",
+          "count": 76
+        },
+        {
+          "label": "basal cell carcinoma",
+          "count": 29
+        }
+      ]
+    },
+    "57": {
+      "label": "milia",
+      "f1_score": 97.78,
+      "precision": 95.65,
+      "recall": 100.0,
+      "support": 22,
+      "confusion_matrix": {
+        "tp": 22,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8819
+      },
+      "top_confused_with": []
+    },
+    "58": {
+      "label": "mucinosis",
+      "f1_score": 92.31,
+      "precision": 85.71,
+      "recall": 100.0,
+      "support": 18,
+      "confusion_matrix": {
+        "tp": 18,
+        "fp": 3,
+        "fn": 0,
+        "tn": 8821
+      },
+      "top_confused_with": []
+    },
+    "59": {
+      "label": "mucous cyst",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 16,
+      "confusion_matrix": {
+        "tp": 16,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8826
+      },
+      "top_confused_with": []
+    },
+    "60": {
+      "label": "mycosis fungoides",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 36,
+      "confusion_matrix": {
+        "tp": 36,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8806
+      },
+      "top_confused_with": []
+    },
+    "61": {
+      "label": "myiasis",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 13,
+      "confusion_matrix": {
+        "tp": 13,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8829
+      },
+      "top_confused_with": []
+    },
+    "62": {
+      "label": "naevus comedonicus",
+      "f1_score": 89.66,
+      "precision": 92.86,
+      "recall": 86.67,
+      "support": 15,
+      "confusion_matrix": {
+        "tp": 13,
+        "fp": 1,
+        "fn": 2,
+        "tn": 8826
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 2
+        }
+      ]
+    },
+    "63": {
+      "label": "necrobiosis lipoidica",
+      "f1_score": 96.0,
+      "precision": 96.0,
+      "recall": 96.0,
+      "support": 25,
+      "confusion_matrix": {
+        "tp": 24,
+        "fp": 1,
+        "fn": 1,
+        "tn": 8816
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "64": {
+      "label": "nematode infection",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 52,
+      "confusion_matrix": {
+        "tp": 52,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8790
+      },
+      "top_confused_with": []
+    },
+    "65": {
+      "label": "neurodermatitis",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 14,
+      "confusion_matrix": {
+        "tp": 14,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8828
+      },
+      "top_confused_with": []
+    },
+    "66": {
+      "label": "neurofibromatosis",
+      "f1_score": 98.67,
+      "precision": 100.0,
+      "recall": 97.37,
+      "support": 38,
+      "confusion_matrix": {
+        "tp": 37,
+        "fp": 0,
+        "fn": 1,
+        "tn": 8804
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "67": {
+      "label": "neurotic excoriations",
+      "f1_score": 93.33,
+      "precision": 93.33,
+      "recall": 93.33,
+      "support": 15,
+      "confusion_matrix": {
+        "tp": 14,
+        "fp": 1,
+        "fn": 1,
+        "tn": 8826
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "68": {
+      "label": "neutrophilic dermatoses",
+      "f1_score": 95.83,
+      "precision": 95.83,
+      "recall": 95.83,
+      "support": 72,
+      "confusion_matrix": {
+        "tp": 69,
+        "fp": 3,
+        "fn": 3,
+        "tn": 8767
+      },
+      "top_confused_with": [
+        {
+          "label": "pyogenic granuloma",
+          "count": 1
+        },
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        },
+        {
+          "label": "acquired autoimmune bullous diseaseherpes gestationis",
+          "count": 1
+        }
+      ]
+    },
+    "69": {
+      "label": "nevocytic nevus",
+      "f1_score": 84.75,
+      "precision": 89.51,
+      "recall": 80.46,
+      "support": 2641,
+      "confusion_matrix": {
+        "tp": 2125,
+        "fp": 249,
+        "fn": 516,
+        "tn": 5952
+      },
+      "top_confused_with": [
+        {
+          "label": "melanoma",
+          "count": 223
+        },
+        {
+          "label": "seborrheic keratosis",
+          "count": 141
+        },
+        {
+          "label": "basal cell carcinoma",
+          "count": 60
+        }
+      ]
+    },
+    "70": {
+      "label": "nevus sebaceous of jadassohn",
+      "f1_score": 97.44,
+      "precision": 95.0,
+      "recall": 100.0,
+      "support": 19,
+      "confusion_matrix": {
+        "tp": 19,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8822
+      },
+      "top_confused_with": []
+    },
+    "71": {
+      "label": "papilomatosis confluentes and reticulate",
+      "f1_score": 94.92,
+      "precision": 96.55,
+      "recall": 93.33,
+      "support": 30,
+      "confusion_matrix": {
+        "tp": 28,
+        "fp": 1,
+        "fn": 2,
+        "tn": 8811
+      },
+      "top_confused_with": [
+        {
+          "label": "prurigo nodularis",
+          "count": 2
+        }
+      ]
+    },
+    "72": {
+      "label": "paronychia",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 12,
+      "confusion_matrix": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8830
+      },
+      "top_confused_with": []
+    },
+    "73": {
+      "label": "pediculosis lids",
+      "f1_score": 98.31,
+      "precision": 100.0,
+      "recall": 96.67,
+      "support": 30,
+      "confusion_matrix": {
+        "tp": 29,
+        "fp": 0,
+        "fn": 1,
+        "tn": 8812
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "74": {
+      "label": "perioral dermatitis",
+      "f1_score": 96.0,
+      "precision": 92.31,
+      "recall": 100.0,
+      "support": 12,
+      "confusion_matrix": {
+        "tp": 12,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8829
+      },
+      "top_confused_with": []
+    },
+    "75": {
+      "label": "photodermatoses",
+      "f1_score": 97.06,
+      "precision": 100.0,
+      "recall": 94.29,
+      "support": 70,
+      "confusion_matrix": {
+        "tp": 66,
+        "fp": 0,
+        "fn": 4,
+        "tn": 8772
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 3
+        },
+        {
+          "label": "superficial spreading melanoma ssm",
+          "count": 1
+        }
+      ]
+    },
+    "76": {
+      "label": "pilar cyst",
+      "f1_score": 92.31,
+      "precision": 90.0,
+      "recall": 94.74,
+      "support": 19,
+      "confusion_matrix": {
+        "tp": 18,
+        "fp": 2,
+        "fn": 1,
+        "tn": 8821
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "77": {
+      "label": "pilomatricoma",
+      "f1_score": 90.91,
+      "precision": 90.91,
+      "recall": 90.91,
+      "support": 11,
+      "confusion_matrix": {
+        "tp": 10,
+        "fp": 1,
+        "fn": 1,
+        "tn": 8830
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "78": {
+      "label": "pityriasis lichenoides chronica",
+      "f1_score": 96.77,
+      "precision": 93.75,
+      "recall": 100.0,
+      "support": 15,
+      "confusion_matrix": {
+        "tp": 15,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8826
+      },
+      "top_confused_with": []
+    },
+    "79": {
+      "label": "pityriasis rosea",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 39,
+      "confusion_matrix": {
+        "tp": 39,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8803
+      },
+      "top_confused_with": []
+    },
+    "80": {
+      "label": "pityriasis rubra pilaris",
+      "f1_score": 98.25,
+      "precision": 96.55,
+      "recall": 100.0,
+      "support": 56,
+      "confusion_matrix": {
+        "tp": 56,
+        "fp": 2,
+        "fn": 0,
+        "tn": 8784
+      },
+      "top_confused_with": []
+    },
+    "81": {
+      "label": "porokeratosis actinic",
+      "f1_score": 88.1,
+      "precision": 78.72,
+      "recall": 100.0,
+      "support": 37,
+      "confusion_matrix": {
+        "tp": 37,
+        "fp": 10,
+        "fn": 0,
+        "tn": 8795
+      },
+      "top_confused_with": []
+    },
+    "82": {
+      "label": "porokeratosis of mibelli",
+      "f1_score": 96.97,
+      "precision": 94.12,
+      "recall": 100.0,
+      "support": 16,
+      "confusion_matrix": {
+        "tp": 16,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8825
+      },
+      "top_confused_with": []
+    },
+    "83": {
+      "label": "porphyria",
+      "f1_score": 98.04,
+      "precision": 96.15,
+      "recall": 100.0,
+      "support": 25,
+      "confusion_matrix": {
+        "tp": 25,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8816
+      },
+      "top_confused_with": []
+    },
+    "84": {
+      "label": "port wine stain",
+      "f1_score": 91.67,
+      "precision": 91.67,
+      "recall": 91.67,
+      "support": 12,
+      "confusion_matrix": {
+        "tp": 11,
+        "fp": 1,
+        "fn": 1,
+        "tn": 8829
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "85": {
+      "label": "prurigo nodularis",
+      "f1_score": 95.77,
+      "precision": 91.89,
+      "recall": 100.0,
+      "support": 34,
+      "confusion_matrix": {
+        "tp": 34,
+        "fp": 3,
+        "fn": 0,
+        "tn": 8805
+      },
+      "top_confused_with": []
+    },
+    "86": {
+      "label": "psoriasis",
+      "f1_score": 95.69,
+      "precision": 98.39,
+      "recall": 93.13,
+      "support": 131,
+      "confusion_matrix": {
+        "tp": 122,
+        "fp": 2,
+        "fn": 9,
+        "tn": 8709
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 3
+        },
+        {
+          "label": "rosacea",
+          "count": 1
+        },
+        {
+          "label": "stasis edema",
+          "count": 1
+        }
+      ]
+    },
+    "87": {
+      "label": "pustular psoriasis",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 11,
+      "confusion_matrix": {
+        "tp": 11,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8831
+      },
+      "top_confused_with": []
+    },
+    "88": {
+      "label": "pyogenic granuloma",
+      "f1_score": 92.0,
+      "precision": 85.19,
+      "recall": 100.0,
+      "support": 23,
+      "confusion_matrix": {
+        "tp": 23,
+        "fp": 4,
+        "fn": 0,
+        "tn": 8815
+      },
+      "top_confused_with": []
+    },
+    "89": {
+      "label": "rhinophyma",
+      "f1_score": 90.0,
+      "precision": 81.82,
+      "recall": 100.0,
+      "support": 18,
+      "confusion_matrix": {
+        "tp": 18,
+        "fp": 4,
+        "fn": 0,
+        "tn": 8820
+      },
+      "top_confused_with": []
+    },
+    "90": {
+      "label": "rosacea",
+      "f1_score": 95.0,
+      "precision": 95.0,
+      "recall": 95.0,
+      "support": 20,
+      "confusion_matrix": {
+        "tp": 19,
+        "fp": 1,
+        "fn": 1,
+        "tn": 8821
+      },
+      "top_confused_with": [
+        {
+          "label": "rhinophyma",
+          "count": 1
+        }
+      ]
+    },
+    "91": {
+      "label": "sarcoidosis",
+      "f1_score": 92.86,
+      "precision": 92.86,
+      "recall": 92.86,
+      "support": 70,
+      "confusion_matrix": {
+        "tp": 65,
+        "fp": 5,
+        "fn": 5,
+        "tn": 8767
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 2
+        },
+        {
+          "label": "granuloma annulare",
+          "count": 1
+        },
+        {
+          "label": "neurotic excoriations",
+          "count": 1
+        }
+      ]
+    },
+    "92": {
+      "label": "scabies",
+      "f1_score": 97.1,
+      "precision": 95.71,
+      "recall": 98.53,
+      "support": 68,
+      "confusion_matrix": {
+        "tp": 67,
+        "fp": 3,
+        "fn": 1,
+        "tn": 8771
+      },
+      "top_confused_with": [
+        {
+          "label": "tick bite",
+          "count": 1
+        }
+      ]
+    },
+    "93": {
+      "label": "scleroderma",
+      "f1_score": 95.87,
+      "precision": 98.31,
+      "recall": 93.55,
+      "support": 62,
+      "confusion_matrix": {
+        "tp": 58,
+        "fp": 1,
+        "fn": 4,
+        "tn": 8779
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 3
+        },
+        {
+          "label": "rhinophyma",
+          "count": 1
+        }
+      ]
+    },
+    "94": {
+      "label": "scleromyxedema",
+      "f1_score": 97.67,
+      "precision": 100.0,
+      "recall": 95.45,
+      "support": 22,
+      "confusion_matrix": {
+        "tp": 21,
+        "fp": 0,
+        "fn": 1,
+        "tn": 8820
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "95": {
+      "label": "seborrheic dermatitis",
+      "f1_score": 98.04,
+      "precision": 96.15,
+      "recall": 100.0,
+      "support": 25,
+      "confusion_matrix": {
+        "tp": 25,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8816
+      },
+      "top_confused_with": []
+    },
+    "96": {
+      "label": "seborrheic keratosis",
+      "f1_score": 66.72,
+      "precision": 61.65,
+      "recall": 72.7,
+      "support": 586,
+      "confusion_matrix": {
+        "tp": 426,
+        "fp": 265,
+        "fn": 160,
+        "tn": 7991
+      },
+      "top_confused_with": [
+        {
+          "label": "nevocytic nevus",
+          "count": 45
+        },
+        {
+          "label": "melanoma",
+          "count": 32
+        },
+        {
+          "label": "basal cell carcinoma",
+          "count": 31
+        }
+      ]
+    },
+    "97": {
+      "label": "solid cystic basal cell carcinoma",
+      "f1_score": 83.87,
+      "precision": 72.22,
+      "recall": 100.0,
+      "support": 13,
+      "confusion_matrix": {
+        "tp": 13,
+        "fp": 5,
+        "fn": 0,
+        "tn": 8824
+      },
+      "top_confused_with": []
+    },
+    "98": {
+      "label": "squamous cell carcinoma",
+      "f1_score": 68.76,
+      "precision": 62.0,
+      "recall": 77.18,
+      "support": 241,
+      "confusion_matrix": {
+        "tp": 186,
+        "fp": 114,
+        "fn": 55,
+        "tn": 8487
+      },
+      "top_confused_with": [
+        {
+          "label": "basal cell carcinoma",
+          "count": 12
+        },
+        {
+          "label": "actinic keratosis",
+          "count": 10
+        },
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 7
+        }
+      ]
+    },
+    "99": {
+      "label": "stasis edema",
+      "f1_score": 93.33,
+      "precision": 87.5,
+      "recall": 100.0,
+      "support": 14,
+      "confusion_matrix": {
+        "tp": 14,
+        "fp": 2,
+        "fn": 0,
+        "tn": 8826
+      },
+      "top_confused_with": []
+    },
+    "100": {
+      "label": "stevens johnson syndrome",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 23,
+      "confusion_matrix": {
+        "tp": 23,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8819
+      },
+      "top_confused_with": []
+    },
+    "101": {
+      "label": "striae",
+      "f1_score": 88.89,
+      "precision": 85.71,
+      "recall": 92.31,
+      "support": 13,
+      "confusion_matrix": {
+        "tp": 12,
+        "fp": 2,
+        "fn": 1,
+        "tn": 8827
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "102": {
+      "label": "sun damaged skin",
+      "f1_score": 89.66,
+      "precision": 81.25,
+      "recall": 100.0,
+      "support": 13,
+      "confusion_matrix": {
+        "tp": 13,
+        "fp": 3,
+        "fn": 0,
+        "tn": 8826
+      },
+      "top_confused_with": []
+    },
+    "103": {
+      "label": "superficial spreading melanoma ssm",
+      "f1_score": 80.0,
+      "precision": 66.67,
+      "recall": 100.0,
+      "support": 24,
+      "confusion_matrix": {
+        "tp": 24,
+        "fp": 12,
+        "fn": 0,
+        "tn": 8806
+      },
+      "top_confused_with": []
+    },
+    "104": {
+      "label": "syringoma",
+      "f1_score": 92.59,
+      "precision": 86.21,
+      "recall": 100.0,
+      "support": 25,
+      "confusion_matrix": {
+        "tp": 25,
+        "fp": 4,
+        "fn": 0,
+        "tn": 8813
+      },
+      "top_confused_with": []
+    },
+    "105": {
+      "label": "telangiectases",
+      "f1_score": 98.04,
+      "precision": 96.15,
+      "recall": 100.0,
+      "support": 25,
+      "confusion_matrix": {
+        "tp": 25,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8816
+      },
+      "top_confused_with": []
+    },
+    "106": {
+      "label": "tick bite",
+      "f1_score": 90.91,
+      "precision": 83.33,
+      "recall": 100.0,
+      "support": 15,
+      "confusion_matrix": {
+        "tp": 15,
+        "fp": 3,
+        "fn": 0,
+        "tn": 8824
+      },
+      "top_confused_with": []
+    },
+    "107": {
+      "label": "tuberous sclerosis",
+      "f1_score": 98.18,
+      "precision": 100.0,
+      "recall": 96.43,
+      "support": 28,
+      "confusion_matrix": {
+        "tp": 27,
+        "fp": 0,
+        "fn": 1,
+        "tn": 8814
+      },
+      "top_confused_with": [
+        {
+          "label": "xanthomas",
+          "count": 1
+        }
+      ]
+    },
+    "108": {
+      "label": "tungiasis",
+      "f1_score": 95.24,
+      "precision": 90.91,
+      "recall": 100.0,
+      "support": 30,
+      "confusion_matrix": {
+        "tp": 30,
+        "fp": 3,
+        "fn": 0,
+        "tn": 8809
+      },
+      "top_confused_with": []
+    },
+    "109": {
+      "label": "urticaria",
+      "f1_score": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "support": 30,
+      "confusion_matrix": {
+        "tp": 30,
+        "fp": 0,
+        "fn": 0,
+        "tn": 8812
+      },
+      "top_confused_with": []
+    },
+    "110": {
+      "label": "urticaria pigmentosa",
+      "f1_score": 97.78,
+      "precision": 95.65,
+      "recall": 100.0,
+      "support": 22,
+      "confusion_matrix": {
+        "tp": 22,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8819
+      },
+      "top_confused_with": []
+    },
+    "111": {
+      "label": "vascular lesion",
+      "f1_score": 61.73,
+      "precision": 45.05,
+      "recall": 98.04,
+      "support": 51,
+      "confusion_matrix": {
+        "tp": 50,
+        "fp": 61,
+        "fn": 1,
+        "tn": 8730
+      },
+      "top_confused_with": [
+        {
+          "label": "dermatofibroma",
+          "count": 1
+        }
+      ]
+    },
+    "112": {
+      "label": "vitiligo",
+      "f1_score": 96.97,
+      "precision": 96.97,
+      "recall": 96.97,
+      "support": 33,
+      "confusion_matrix": {
+        "tp": 32,
+        "fp": 1,
+        "fn": 1,
+        "tn": 8808
+      },
+      "top_confused_with": [
+        {
+          "label": "acrodermatitis enteropathica",
+          "count": 1
+        }
+      ]
+    },
+    "113": {
+      "label": "xanthomas",
+      "f1_score": 95.24,
+      "precision": 90.91,
+      "recall": 100.0,
+      "support": 10,
+      "confusion_matrix": {
+        "tp": 10,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8831
+      },
+      "top_confused_with": []
+    },
+    "114": {
+      "label": "xeroderma pigmentosum",
+      "f1_score": 96.97,
+      "precision": 94.12,
+      "recall": 100.0,
+      "support": 16,
+      "confusion_matrix": {
+        "tp": 16,
+        "fp": 1,
+        "fn": 0,
+        "tn": 8825
+      },
+      "top_confused_with": []
+    }
+  }
+}

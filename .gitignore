@@ -1,0 +1,49 @@
+# Datasets
+Dataset/
+*.zip
+
+# Python & PyTorch
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+env/
+Backend/pause_checkpoint.pth
+Backend/skin_model_latest.pth
+
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
+
+# Local env
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vite
+*.local
